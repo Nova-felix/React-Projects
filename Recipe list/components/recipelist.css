@@ -1,0 +1,122 @@
+.recipe-list {
+background-color:lightgoldenrodyellow;
+}
+h1{
+font-size: 50px;
+/* font-weight:bolder; */
+color:white;
+text-align:center;
+margin-top: 0px;
+/* font-style: italic; */
+font-family:'Times New Roman', Times, serif;
+padding: 0px;
+animation-name: fadeIn;
+animation-duration: 2s;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+/* border-radius:100px; */
+background-image: url(food.jpg);
+background-repeat: no-repeat;
+/* background-position: center; */
+background-size:cover;
+height:250px;
+width:100%;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+h2{
+  padding-left:20px;
+  font-size:30px;
+  margin:0;
+}
+h3{
+  font-size:30px;
+  background-color:moccasin;
+  font-style: italic;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 100px;
+  /* border-style:groove; */
+  border-color:black;
+  border-style:dashed;
+  padding-left:20px;
+  margin-top:0px;
+}
+form {
+text-align:start;
+/* margin-bottom:0px; */
+/* background-color:lightcoral;   */
+padding: 10px;
+font-size: 30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#search{
+  height:30px;
+  width:150px;
+  padding-right: 300px;
+  background-color:white;
+  /* background-color: aqua; */
+  font-size:25px;
+}
+#search:hover{
+background-color:white;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+}
+label {
+font-size: 30px;
+font-weight: bold;
+/* background-color:darkolivegreen; */
+font-family:Georgia, 'Times New Roman', Times, serif;
+padding:20px;
+}
+select {
+background:white; 
+color: black;
+padding: 8px 16px;
+border: 2px solid black;
+border-radius: 10px;
+cursor: pointer;
+font-size:20px;
+}
+
+select:hover {
+background: white;
+}
+
+option {
+background:white;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.recipe {
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+animation-name: fadeIn;
+animation-duration: 1s;
+}
+
+img {
+width: 400px;
+height: 400px;
+margin-left: 400px;
+}
+#submit{
+  margin-left: 10px;
+  width:100px;
+  height:40px;
+  background-color:rgb(0, 125, 250);
+  /* color:white; */
+  border-radius:100px;
+  /* border-color:rgb(0, 125,250); */
+  border-style:solid;
+} 
+p{
+  padding-left:20px;
+  font-size:20px;
+}
